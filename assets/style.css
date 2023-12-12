@@ -11,3 +11,25 @@ hr{
     width: 100px;
     color: white;
 }
+
+.pics img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.h-r hr{
+    color: blue;
+}
+
+.button{
+    width: 15%;
+    margin: 0 auto;
+    background-color: #198754;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.h-r-r{
+    color: gray;
+    width: 100%;
+}
