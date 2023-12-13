@@ -9,19 +9,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
   <body>
-    <header class="container-fluid">
-        <div class="container-md d-flex justify-content-between">
-            <div class="row py-3 text-white">
-                <h5>START BOOTSTRAP</h5>
+    <header>
+        <nav class="navbar navbar-expand-lg nav-mia text-white">
+            <div class="container-fluid">
+                <h3>START BOOTSTRAP</h3>
+                <div class="d-sm-none d-lg-block">
+                    <ul class="d-flex gap-3 pt-3">
+                        <li>PORTFOLIO</li>
+                        <li>ABOUT</li>
+                        <li>CONTACT</li>
+                    </ul>
+                </div> 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>            
+              
             </div>
-            <div class="row">
-               <ul class="d-flex gap-3 pt-3 text-white">
-                    <li>PORTFOLIO</li>
-                    <li>ABOUT</li>
-                    <li>CONTACT</li>
-               </ul> 
-            </div>
-        </div>
+          </nav>
     </header>
     <main>
         <section class="container-fluid bg-success pt-5">
